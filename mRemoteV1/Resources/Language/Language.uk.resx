@@ -313,15 +313,15 @@ Citrix ICA Client Control версії {0}</value>
   </data>
   <data name="strCcPuttyFailed" xml:space="preserve">
     <value>SSH, Telnet, Rlogin і RAW протоколам потрібен для роботи PuTTY. PuTTY поставляється з кожним mRemoteNG і знаходиться в папці з програмою.
-Переконайтеся, що putty.exe є в папці з mRemoteNG (за замовчунням: C:\Program Files mRemoteNG\), або що ви вказали правильний шлях до виконуваного файлу PuTTY в Інструменти - Опції - Додатково - Шлях до PuTTY)</value>
+Переконайтеся, що putty.exe є в папці з mRemoteNG (за замовчунням: C:\Program Files\mRemoteNG\), або що ви вказали правильний шлях до виконуваного файлу PuTTY в Інструменти - Опції - Додатково - Шлях до PuTTY)</value>
   </data>
   <data name="strCcPuttyOK" xml:space="preserve">
     <value>Виконуваний файл PuTTY знайдений і готовий до використання.</value>
   </data>
   <data name="strCcRDPFailed" xml:space="preserve">
     <value>Для правильної роботи RDP необхідно мати встановлений Remote Desktop Connection (Terminal Services Client) 8.0. Ви можете отримати його тут: https://support.microsoft.com/kb/2592687
-Якщо у вас є встановлений RDP 8.0 і підключитися не вдається, спробуйте зареєструватися mstscax.dll вручну. Для цього відкрийте (Пуск - Виконати) і введіть наступну команду: regsvr32 "C:\Windows\system32\mstscax.dll" (де C: \ - ваш системний диск).
-Якщо у вас виникли проблеми при роботі з RDP зверніться на форум mRemoteNGhttp: / / forum.mremoteng.org /</value>
+Якщо у вас є встановлений RDP 8.0 і підключитися не вдається, спробуйте зареєструватися mstscax.dll вручну. Для цього відкрийте (Пуск - Виконати) і введіть наступну команду: regsvr32 "C:\Windows\system32\mstscax.dll" (де C:\ - ваш системний диск).
+Якщо у вас виникли проблеми при роботі з RDP зверніться на форум mRemoteNG http://forum.mremoteng.org/</value>
   </data>
   <data name="strCcRDPOK" xml:space="preserve">
     <value>Всі RDP компоненти були знайдені і зареєстровані.
@@ -1204,7 +1204,7 @@ VncSharp Control Version {0}</value>
     <value>Зовнішній інструмент, який потрібно запустити.</value>
   </data>
   <data name="strPropertyDescriptionExternalToolAfter" xml:space="preserve">
-    <value>Внешний инструмент, который нужно запустить на удаленном компьютере после отключения.</value>
+    <value>Зовнішній інструмент, який потрібно запустити на віддаленому ПК після відключення.</value>
   </data>
   <data name="strPropertyDescriptionExternalToolBefore" xml:space="preserve">
     <value>Зовнішній інструмент, який потрібно запустити на віддаленому комп'ютері до з'єднання.</value>
@@ -1264,10 +1264,10 @@ VncSharp Control Version {0}</value>
     <value>Вкажіть, чи будуть локальні смарт-карти доступні на віддаленому хості.</value>
   </data>
   <data name="strPropertyDescriptionRedirectSounds" xml:space="preserve">
-    <value>Укажите, будет ли перенаправлен удаленный звук на локальный компьютер.</value>
+    <value>Вкажіть, чи буде перенаправлено віддалений звук на локальний ПК.</value>
   </data>
   <data name="strPropertyDescriptionRenderingEngine" xml:space="preserve">
-    <value>Выберите один из доступных движков рендеринга, который будет использоваться для отображения HTML.</value>
+    <value>Виберыть один із доступних рендерів, який буде використовуватися для відображення HTML.</value>
   </data>
   <data name="strPropertyDescriptionResolution" xml:space="preserve">
     <value>Виберіть роздільність екрану в дюймах або режим відображення для цього з'єднання</value>
@@ -1453,12 +1453,12 @@ VncSharp Control Version {0}</value>
     <value>Користувач Проксі</value>
   </data>
   <data name="strProtocolEventDisconnected" xml:space="preserve">
-    <value>Протокол событий Отключен.
-Сообщение:
+    <value>Протокол подій вимкнено.
+Повідомлення:
 {0}</value>
   </data>
   <data name="strProtocolEventDisconnectFailed" xml:space="preserve">
-    <value>Протокол событий Отключение не удалось.
+    <value>Протокол подій вимкнути не вдалося.
 {0}</value>
   </data>
   <data name="strProtocolToImport" xml:space="preserve">
@@ -1720,7 +1720,7 @@ VncSharp Control Version {0}</value>
     <value>Зберігати з'єднання при виході</value>
   </data>
   <data name="strSaveImageFilter" xml:space="preserve">
-    <value>Файл Graphics Interchange Format (GIF.) | *. GIF | Файл Joint Photographic Experts Group (JPEG.) | *. JPEG | Файл Joint Photographic Experts Group (JPG.) | *. JPG | Файл Portable Network Graphics (PNG). | *. PNG</value>
+    <value>Файл Graphics Interchange Format (GIF.)|*.GIF|Файл Joint Photographic Experts Group (JPEG.)|*.JPEG | Файл Joint Photographic Experts Group (JPG.)|*.JPG | Файл Portable Network Graphics (PNG).|*.PNG</value>
   </data>
   <data name="strScreen" xml:space="preserve">
     <value>Екран</value>
@@ -1822,13 +1822,13 @@ VncSharp Control Version {0}</value>
     <value>Початк. порт</value>
   </data>
   <data name="strStartupExit" xml:space="preserve">
-    <value>Запуск / Вихід</value>
+    <value>Запуск/Вихід</value>
   </data>
   <data name="strStatus" xml:space="preserve">
     <value>Статус</value>
   </data>
   <data name="strSwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Переключиться на панель повідомлень:</value>
+    <value>Переключитися на панель повідомлень:</value>
   </data>
   <data name="strTabAdvanced" xml:space="preserve">
     <value>Додатково</value>
@@ -1888,7 +1888,7 @@ VncSharp Control Version {0}</value>
     <value>Потрібне оновлення mRemoteNG</value>
   </data>
   <data name="strUpdateCheck" xml:space="preserve">
-    <value>mRemoteNG може періодично підключатися до сайту mRemoteNG для перевірки наявності оновлень.</value>
+    <value>mRemoteNG може періодично перевірки наявність оновлень на офіційному сайті.</value>
   </data>
   <data name="strUpdateCheckCompleteFailed" xml:space="preserve">
     <value>Не вдалося завершити перевірку оновлень!</value>
