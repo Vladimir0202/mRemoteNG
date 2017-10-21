@@ -320,17 +320,17 @@ Citrix ICA Client Control версії {0}</value>
   </data>
   <data name="strCcRDPFailed" xml:space="preserve">
     <value>Для правильної роботи RDP необхідно мати встановлений Remote Desktop Connection (Terminal Services Client) 8.0. Ви можете отримати його тут: https://support.microsoft.com/kb/2592687
-Якщо у вас є встановлений RDP 8.0 і підключитися не вдається, спробуйте зареєструватися mstscax.dll вручну. Для цього відкрийте (Пуск - Виконати) і введіть наступну команду: regsvr32 "C:\Windows\system32\mstscax.dll" (де C: \ - ваш системний диск).
-Якщо у вас виникли проблеми при роботі з RDP зверніться на форум mRemoteNGhttp: / / forum.mremoteng.org /</value>
+Якщо у вас є встановлений RDP 8.0 і підключитися не вдається, спробуйте зареєструватися mstscax.dll вручну. Для цього відкрийте (Пуск - Виконати) і введіть наступну команду: regsvr32 "C:\Windows\system32\mstscax.dll" (де C:\ - ваш системний диск).
+Якщо у вас виникли проблеми при роботі з RDP зверніться на форум mRemoteNG http://forum.mremoteng.org/</value>
   </data>
   <data name="strCcRDPOK" xml:space="preserve">
     <value>Всі RDP компоненти були знайдені і зареєстровані.
 Remote Desktop Connection, Control Version {0}</value>
   </data>
   <data name="strCcVNCFailed" xml:space="preserve">
-    <value>VNC требуется VncSharp.dll который находится в папке с mRemoteNG.
- Убедитесь, что у вас есть VncSharp.dll в папке mRemoteNG (обычно C:\Program Files\mRemoteNG\).
- Если  у вас все же не работает VNC в mRemoteNG обратитесь на форум mRemoteNGhttp://forum.mremoteng.org/</value>
+    <value>Для роботи VNC потрібен VncSharp.dll, який знаходиться в папці з mRemoteNG.
+ Переконайтесь, що у вас є VncSharp.dll в папці mRemoteNG (звичайно це C:\Program Files\mRemoteNG\).
+ Якщо у вас все-таки не працює VNC в mRemoteNG, то зверніться на форум mRemoteNG http://forum.mremoteng.org/</value>
   </data>
   <data name="strCcVNCOK" xml:space="preserve">
     <value>Всі VNC компоненти були знайдені і зареєстровані.
@@ -654,19 +654,19 @@ VncSharp Control Version {0}</value>
     <value>Всі файли (*.*)</value>
   </data>
   <data name="strFilterApplication" xml:space="preserve">
-    <value>Файли додатків (*. EXE)</value>
+    <value>Файли додатків (*.EXE)</value>
   </data>
   <data name="strFiltermRemoteCSV" xml:space="preserve">
-    <value>mRemote CSV-файли (*. CSV)</value>
+    <value>mRemote CSV-файли (*.CSV)</value>
   </data>
   <data name="strFiltermRemoteXML" xml:space="preserve">
-    <value>mRemote XML-файли (*. XML)</value>
+    <value>mRemote XML-файли (*.XML)</value>
   </data>
   <data name="strFilterRDP" xml:space="preserve">
-    <value>RDP-файли (*. RDP)</value>
+    <value>RDP-файли (*.RDP)</value>
   </data>
   <data name="strFiltervRD2008CSV" xml:space="preserve">
-    <value>visionapp Remote Desktop 2008 CSV-файли (*. CSV)</value>
+    <value>visionapp Remote Desktop 2008 CSV-файли (*.CSV)</value>
   </data>
   <data name="strFormatInherit" xml:space="preserve">
     <value>Успадковувати {0}</value>
@@ -735,7 +735,7 @@ VncSharp Control Version {0}</value>
     <value>Імпорт з Active Directory</value>
   </data>
   <data name="strImportExport" xml:space="preserve">
-    <value>Імпорт / Експорт</value>
+    <value>Імпорт/Експорт</value>
   </data>
   <data name="strImportmRemoteXML" xml:space="preserve">
     <value>Імпорт mRemote / mRemoteNG XML</value>
@@ -744,7 +744,7 @@ VncSharp Control Version {0}</value>
     <value>Імпорт з просканованих портів</value>
   </data>
   <data name="strImportRDPFiles" xml:space="preserve">
-    <value>Імпорт з. RDP-файл (ів)</value>
+    <value>Імпорт з .RDP-файлу (ів)</value>
   </data>
   <data name="strInactive" xml:space="preserve">
     <value>Неактивний</value>
@@ -777,7 +777,7 @@ VncSharp Control Version {0}</value>
     <value>Заголовок зовнішнього інструменту: {0}</value>
   </data>
   <data name="strKeysCtrlAltDel" xml:space="preserve">
-    <value>CTRL + ALT + DEL</value>
+    <value>CTRL+ALT+DEL</value>
   </data>
   <data name="strKeysCtrlEsc" xml:space="preserve">
     <value>CTRL-ESC</value>
@@ -921,7 +921,7 @@ VncSharp Control Version {0}</value>
     <value>Видалити...</value>
   </data>
   <data name="strMenuDeleteConnection" xml:space="preserve">
-    <value>Удалить подключение ...</value>
+    <value>Видалити з'єднання...</value>
   </data>
   <data name="strMenuDeleteExternalTool" xml:space="preserve">
     <value>Видалити Зовнішній інструмент...</value>
@@ -930,7 +930,7 @@ VncSharp Control Version {0}</value>
     <value>Видалити папку...</value>
   </data>
   <data name="strMenuDisconnect" xml:space="preserve">
-    <value>Вимкнути</value>
+    <value>Від'єднатись</value>
   </data>
   <data name="strMenuDonate" xml:space="preserve">
     <value>Допомогти проекту</value>
@@ -972,7 +972,7 @@ VncSharp Control Version {0}</value>
     <value>Довідка mRemoteNG</value>
   </data>
   <data name="strMenuJumpTo" xml:space="preserve">
-    <value>Перейти до ..</value>
+    <value>Перейти до...</value>
   </data>
   <data name="strMenuLaunchExternalTool" xml:space="preserve">
     <value>Запуск зовнішніх інструментів</value>
@@ -1029,7 +1029,7 @@ VncSharp Control Version {0}</value>
     <value>Зберегти з'єднання</value>
   </data>
   <data name="strMenuSaveConnectionFileAs" xml:space="preserve">
-    <value>Сохранить подключение как...</value>
+    <value>Зберегти з'єднання як...</value>
   </data>
   <data name="strMenuScreenshot" xml:space="preserve">
     <value>Скріншот</value>
@@ -1050,13 +1050,13 @@ VncSharp Control Version {0}</value>
     <value>Показати текст</value>
   </data>
   <data name="strMenuSmartSize" xml:space="preserve">
-    <value>SmartSize (RDP / VNC)</value>
+    <value>SmartSize (RDP/VNC)</value>
   </data>
   <data name="strMenuSSHFileTransfer" xml:space="preserve">
     <value>Передача файлів по SSH</value>
   </data>
   <data name="strMenuStartChat" xml:space="preserve">
-    <value>Почати чат (VNC)</value>
+    <value>Розпочати чат (VNC)</value>
   </data>
   <data name="strMenuSupportForum" xml:space="preserve">
     <value>Форум підтримки</value>
@@ -1101,7 +1101,7 @@ VncSharp Control Version {0}</value>
     <value>Нова панель</value>
   </data>
   <data name="strNewRoot" xml:space="preserve">
-    <value>новий кореневої</value>
+    <value>Новий кореневий</value>
   </data>
   <data name="strNewTitle" xml:space="preserve">
     <value>Нова назва</value>
@@ -1150,16 +1150,16 @@ VncSharp Control Version {0}</value>
     <value>Будь ласка, заповніть всі поля</value>
   </data>
   <data name="strPortScanCouldNotLoadPanel" xml:space="preserve">
-    <value>Не удалось загрузить панель Сканера портов!</value>
+    <value>Не вдалось завантажити панель Сканеру портів!</value>
   </data>
   <data name="strPropertiesWillOnlyBeSavedMRemoteXML" xml:space="preserve">
-    <value>(Ці властивості будуть збережені тільки якщо ви виберете mRemote / mRemoteNG XML як вихідний формат файлів!)</value>
+    <value>(Ці властивості будуть збережені тільки якщо ви виберете mRemote/mRemoteNG XML як вихідний формат файлів!)</value>
   </data>
   <data name="strPropertyDescriptionAddress" xml:space="preserve">
     <value>Введіть ім'я хосту або IP до якого ви хочете підключитися.</value>
   </data>
   <data name="strPropertyDescriptionAll" xml:space="preserve">
-    <value>Переключить все наследуемые параметры.</value>
+    <value>Переключити всі наслідувані параметри.</value>
   </data>
   <data name="strPropertyDescriptionAuthenticationLevel" xml:space="preserve">
     <value>Оберіть рівень авторизації.</value>
